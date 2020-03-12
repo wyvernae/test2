@@ -24,3 +24,5 @@ fields:
     min: 
     max: 
   label: food section
+pages:
+- get-some-food-today.md
