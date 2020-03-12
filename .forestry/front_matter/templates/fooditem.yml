@@ -1,4 +1,39 @@
 ---
 label: fooditem
 hide_body: true
-fields: []
+fields:
+- name: foods
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: foods
+- name: food_name
+  type: text
+  config:
+    required: false
+  label: name
+- name: food_price
+  type: number
+  label: price
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
