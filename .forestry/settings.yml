@@ -7,10 +7,9 @@ sections:
 - type: directory
   path: ''
   label: pages
-  create: all
+  create: documents
   match: "**/*"
   templates:
-  - page
   - page
 - type: directory
   path: projects
